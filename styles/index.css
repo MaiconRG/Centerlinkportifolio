@@ -25,14 +25,17 @@ header {
 
 footer {
   display: flex;
-  justify-content: center; /* Alinha horizontalmente */
-  align-items: center; /* Alinha verticalmente */
+  justify-content: center;
+  /* Alinha horizontalmente */
+  align-items: center;
+  /* Alinha verticalmente */
   margin-top: 40px;
   height: 40px;
   width: 100%;
   background-color: #57659d;
   color: #ffffff;
 }
+
 .conteudoFlutuante {
   border: solid 2px white;
   margin-top: 30px;
@@ -40,6 +43,7 @@ footer {
   border-radius: 15px;
   padding: 5px;
 }
+
 .conteudoFlutuante:hover {
   border: solid 2px;
   border-color: #001949;
@@ -170,6 +174,7 @@ a:hover {
   h1 {
     font-size: 40px;
   }
+
   header {
     height: 100px;
   }
