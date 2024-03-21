@@ -208,3 +208,27 @@ a:hover {
   display: flex;
   justify-content: center;
 }
+
+/* Definindo tamanho para telas */
+@media (max-width: 1215px) {
+  
+header {
+  display: none;
+}
+
+#conteudo {
+  
+  display: block;
+  text-align: center;
+}
+
+#contatar {
+  display: block;
+  margin: 0 auto;
+}
+
+}
+
+
+
+
