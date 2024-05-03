@@ -25,6 +25,26 @@
   text-decoration: none;
 }
 
+.hide{
+  display: none;
+}
+
+
+.pagina_oculta{
+  width: 100vw;
+  height: 70vh;
+  background-color: var(--cor-secundaria-background);
+}
+
+.btn_ver_mais{
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  border: none;
+  background-color: var(--cor-secundaria-background);
+  color: var(--cor-de-textos);
+  cursor: pointer;
+}
 
 main{
   display: flex;
@@ -128,7 +148,6 @@ color: var(--cor-links-hover);
 
 .suporte_botao .botao_ver_mais{
   display: flex;
-  background-color: var(--cor-secundaria-background);
   width: 150px;
   height: 40px;
   border-radius: 10px;
