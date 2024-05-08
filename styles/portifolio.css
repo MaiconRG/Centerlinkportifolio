@@ -280,8 +280,7 @@ color: var(--cor-links-hover);
 
 /* Edição do texto */
 
-.textoDirecional, h4, a, p {
- 
+.textoDirecional, h4, p {
   font-family: "Dosis", sans-serif;
   font-size: 20px;
   letter-spacing: 3px;
@@ -508,5 +507,77 @@ footer{
   margin-right: 5px;
   margin-left: 2px;
  }
- 
- }
+}
+
+
+.slide{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel__images img{
+  max-width: 400px;
+  max-height: 500px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.carousel {
+    display: flex;
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel__images {
+  overflow: hidden;
+  position: relative;
+}
+
+.carousel__image {
+  display: none; /* Começa oculto */
+  width: 100%;
+  height: auto;
+}
+
+.carousel__image.active {
+  display: block; /* Apenas a imagem ativa é mostrada */
+}
+
+.carousel__button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.carousel__button--prev {
+  left: 0;
+}
+
+.carousel__button--next {
+  right: 0;
+}
+
+.carousel__images .carousel__image {
+  width: 600px;
+  height: 500px;
+}

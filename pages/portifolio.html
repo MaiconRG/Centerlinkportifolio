@@ -48,8 +48,8 @@
     
     <div id="projetos">
       
-      <div class="projetos">
-        <h3>DESENVOLVIMENTO</h3>
+      <div class="projetos" onclick="executa_projetos()">
+        <h3>PROJETOS</h3>
         <img src="../img/Desenvolvimento.png" alt="Imagem do projeto centralizador de link personalizado">
         <div class="suporte_botao">
           <div class="botao_ver_mais">
@@ -58,7 +58,7 @@
        </div> 
       </div>
 
-      <div class="projetos">
+      <div class="projetos" onclick="executa_certificados()">
         <h3>CERTIFICAÇÃO</h3>
         <img src="../img/Certificacao.png" alt="Imagem do projeto portifolio, com trabalhos de Web deigns, artes para midias sociais entre outros e certificados de Maicon Gretschmann ">
         <div class="suporte_botao">
@@ -68,7 +68,7 @@
        </div>  
       </div>
 
-      <div class="projetos">
+      <div class="projetos" onclick="executa_design()">
         <h3>DESIGN</h3>
         <img id="img_deisgn" src="../img/Design.png" alt="Imagem do projeto centralizador de link personalizado">
        
@@ -82,7 +82,17 @@
     <div id="sobre">
     
       <div class="hide pagina_oculta" id="pagina_desenvolvimento">
-       <div class="slider"></div>
+       <div class="slider">
+        <div class="carousel">
+          <button class="carousel__button carousel__button--prev" onclick="changeSlide(-1)">&#10094;</button>
+          <div class="carousel__images">
+            <img src="../img/img1.jpg" alt="Imagem 1" class="carousel__image">
+            <img src="../img/img2.jpg" alt="Imagem 2" class="carousel__image">
+            <img src="../img//img3.jpg" alt="Imagem 3" class="carousel__image">
+          </div>
+          <button class="carousel__button carousel__button--next" onclick="changeSlide(1)">&#10095;</button>
+        </div>
+       </div>
       </div>
 
 
@@ -95,35 +105,6 @@
     <div class="hide pagina_oculta" id="pagina_design">
       <p> Design</p>
     </div>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
     
     
       <footer>
