@@ -18,7 +18,7 @@
 
 ###
 
-<h3 align="left">📚 OBJETIVO</h3>
+<h3 align="left">📚 OBJETIVOS</h3>
 
 ###
 
